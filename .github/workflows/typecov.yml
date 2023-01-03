@@ -14,5 +14,7 @@ jobs:
           npm i
           ls -a
           npx codechecks
+          pwd
+          ls -a 
         env:
           CC_SECRET: ${{ secrets.CC_SECRET }}
