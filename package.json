@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tscinit": "tsc --init"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@codechecks/client": "^0.1.12",
+    "typecov": "^0.2.3"
   }
 }
