@@ -13,5 +13,6 @@ jobs:
           echo $CC_SECRET
           npm i
           ls -a
+          npx codechecks
         env:
           CC_SECRET: ${{ secrets.CC_SECRET }}
